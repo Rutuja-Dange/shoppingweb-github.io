@@ -57,9 +57,39 @@
 	    </div>
 	</div>
 
+<!--about us section-->
 
 
-	<div class="modal" tabindex="-1" id="registermodal">
+
+
+
+<div class="container" id="about">
+	<h4 class="text-center my-3">About <span id="brandcolor">Shopping Web</span> </h4>
+	<hr width="200px" class="bg-dark">
+ 	<div class="row">
+ 		<div class="col-md-6">
+ 			<img src="images/shop1.jpg" class="img-fluid">
+ 		</div>
+ 		<div class="col-md-6">
+ 			<p>
+ 			  Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine, which displays the same product's availability and pricing at different e-retailers. As of 2020, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.
+ 		  </p>
+ 		  <p>
+ 		  	This milestone event set the stage for the diversification of online retail, with early adopters such as wine, chocolates, and flowers paving the way. These products became pioneers in the e-commerce realm, capturing the attention of a growing audience. Researchers identified a crucial factor for internet success – the suitability of products for online transactions.[7] Generic items that didn't necessitate physical interaction gained traction, propelling the online shopping trend forward.
+ 		  </p>
+ 		</div>
+ 	</div>
+</div>
+
+
+
+
+<!--end of about section-->
+
+
+
+
+<div class="modal" tabindex="-1" id="registermodal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -68,12 +98,41 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">REGISTER</button>
-        <button type="button" class="btn btn-primary">CANCEL</button>
+          <div class="modal-body">
+            <form>
+
+            	<div class="form-group">
+						    <label for="exampleInputfullname">Full name</label>
+						    <input type="email" class="form-control" id="exampleInputfullname" aria-describedby="emailHelp" placeholder="Enter fullname">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">Password</label>
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputcontacts">contacts</label>
+						    <input type="password" class="form-control" id="exampleInputcontacts" placeholder="Password">
+						  </div>
+
+						  <div class="form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+						  </div>
+
+						  <button type="submit" class="btn btn-primary">REGISTER</button>
+						  <p>Already have an account??<a href="#loginmodal" data-toggle="modal" data-dismiss="modal">sign in</a></p>
+						</form>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">CLOSE</button>
       </div>
     </div>
   </div>
@@ -90,29 +149,34 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
+            <form>
+
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">Password</label>
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						  </div>
+
+						  <div class="form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+						  </div>
+
+						  <button type="submit" class="btn btn-primary">LOGIN</button>
+						  <P>Don't have an account??<a href="#registermodal" data-toggle="modal" data-dismiss="modal">sign up</a></P>
+						</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">LOGIN</button>
         <button type="button" class="btn btn-primary">CANCEL</button>
       </div>
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
